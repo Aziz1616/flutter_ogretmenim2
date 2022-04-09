@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "635384448537",
+    "project_id": "ogretmenim2-cc650",
+    "storage_bucket": "ogretmenim2-cc650.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635384448537:android:0024746cce2663de300c88",
+        "android_client_info": {
+          "package_name": "com.example.flutter_ogretmenim2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635384448537-p2aqa51dkqhqs9rvcji62tlg08fqg63b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8fLGAbzwW4YVmVi-H8oU-Okk9EbeBQjE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635384448537-p2aqa51dkqhqs9rvcji62tlg08fqg63b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

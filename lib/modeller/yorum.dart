@@ -1,0 +1,21 @@
+// @dart=2.9
+import 'package:cloud_firestore/cloud_firestore.dart';
+
+//kazanımlar içinde bu yapıyı oluşturmam gerekli
+class Yorum {
+  final String id;
+  final String icerik;
+  final String yayinlayanId;
+  final Timestamp olusturulmaZamani;
+
+  Yorum({this.id, this.icerik, this.yayinlayanId, this.olusturulmaZamani});
+  factory Yorum.dokumandanUret(DocumentSnapshot doc) {
+    var docData = doc.data();
+    return Yorum(
+      id: doc.id,
+      icerik: doc['icerik'],
+      yayinlayanId: doc['yayinlayanId'],
+      olusturulmaZamani: doc['olusturulmaZamani'],
+    );
+  }
+}
